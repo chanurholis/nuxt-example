@@ -9,15 +9,18 @@
             <ButtonComponent name="Secondary" type="secondary" />
             <ButtonComponent name="Warning" type="warning" />
             <ButtonComponent name="Danger" type="danger" />
+            <ButtonComponent name="Default" />
         </div>
     </div>
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
+
 import ButtonComponent from '~/components/ButtonComponent.vue';
 
-export default {
+export default Vue.extend({
     name: "TemplatePage",
     components: { ButtonComponent }
-}
+})
 </script>

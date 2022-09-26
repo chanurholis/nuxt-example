@@ -9,11 +9,13 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
+
 import HeaderLayout from './HeaderLayout.vue';
 import FooterLayout from './FooterLayout.vue';
 
-export default {
+export default Vue.extend({
     name: "MainLayout",
     components: { HeaderLayout, FooterLayout }
-}
+})
 </script>

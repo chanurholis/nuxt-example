@@ -7,8 +7,10 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue';
+
+export default Vue.extend({
     props: ['error'],
     layout: 'error' // you can set a custom layout for the error page
-}
+})
 </script>

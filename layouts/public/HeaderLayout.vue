@@ -132,10 +132,12 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
+
 import ButtonComponent from '~/components/ButtonComponent.vue';
 
-export default {
+export default Vue.extend({
     name: "HeaderLayout",
     components: { ButtonComponent }
-}
+})
 </script>

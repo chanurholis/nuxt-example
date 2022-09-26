@@ -5,10 +5,12 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue';
+
 import MainLayout from '~/layouts/public/MainLayout.vue';
 
-export default {
+export default Vue.extend({
     name: "LoginContainer",
     components: { MainLayout },
-}
+})
 </script>
